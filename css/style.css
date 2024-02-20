@@ -1,0 +1,509 @@
+*{
+    max-width: 1280px !important;
+}
+
+html{
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1280px;
+    min-width: 360px !important;
+    width: 100%;
+}
+
+.top-banner{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    max-height: 730px;
+    min-height: 730px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+#menu-livros #custom-dropdown::after {
+    display: none;
+}
+
+.navbar-toggler-icon{
+    background-image: url("../imagens_para_site/desktop/menu.svg");
+}
+
+.navbar-toggler{
+    position: absolute;
+    top:-15px;
+    right: 20px;
+    border: none;
+    color: transparent;
+}
+
+.carousel-caption{
+    width: 35vw;
+    height: 350px;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+}
+
+#carousel-mobile .carousel-caption{
+    top: 280px;
+    left: 20px;
+    width: 90vw;
+    height:fit-content;
+}
+
+#carouselExampleCaptionsMobile .carousel-item img{
+    max-height: 760px;
+    min-height: 760px;
+    width: 100%;
+}
+
+.carousel-indicators{
+    width: 85vw;
+    height: fit-content;
+    position: absolute;
+    top: 625px;
+    margin-left: 100px;
+}
+
+#carousel-mobile .carousel-indicators{
+    top: 720px;
+    left: -60px;
+}
+
+.caixa-bem-vindo{
+    z-index: 10;
+    margin-top: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    height: 700px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    height: 40vh;
+}
+
+.titulo-card{
+    margin-top: 30px;
+    text-align: left;
+    font-family: ibm-bold;
+    font-size: 23px;
+    color: #4D4D4D;
+}
+
+.subtitulo-card{
+    font-family: ibm-medium;
+    font-size: 15px;
+    color: #B17E3B;
+    margin-top: 10px;
+}
+
+.texto-card{
+    margin-top: 10px;
+}
+
+.btn-card{
+    margin-top: 15px;
+}
+
+#titulo-pagina, .navbar, .menu-selecionado, .carousel-caption>h6, .carousel-caption>h5, button, #titulo-bem-vindo, #titulo-ultimos, .titulo-card, .subtitulo-card, #titulo-contactos, .subtitulo-contactos, #titulo-redes, .data-publicacao, .titulo-caption
+{
+    text-transform: uppercase;
+}
+
+#titulo-pagina{
+    font-family: ibm-bold;
+    font-size: 35px;
+    color: #4D4D4D;
+    margin-top: 52px;
+}
+
+.barra{
+    border: 1px solid #707070;
+}
+
+#barra-topo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#barra-baixo1{
+    margin-top: 106px;
+    margin-bottom: 27px;
+}
+
+#barra-baixo2{
+    margin-top: 27px;
+    margin-bottom: 50px;
+}
+
+.navbar{
+    font-family: lato-black;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.nav-link:hover {
+    color: #B47D33;
+}
+
+#top_nav .nav-link.active {
+    color: #B47D33;
+}
+
+.dropdown-menu{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+    margin-top: 17px;
+    padding: 25px 30px 35px 30px;
+    gap: 15px;
+}
+
+.dropdown-menu li{
+    padding-bottom: 15px;
+}
+
+.dropdown-item{
+    font-family: ibm-medium;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.dropdown-item:hover{
+    color: #B17E3B ;
+}
+
+.carousel-caption>h6{
+    margin-top: 80px;
+    font-family: ibm-medium;
+    color: #B17E3B;
+}
+
+.carousel-caption>p{
+    margin-top: 15px;
+}
+
+.carousel-caption>button{
+    margin-top: 15px;
+}
+
+.ver-mais{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-image: url("../imagens_para_site/desktop/vermais.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+
+.ver-mais:hover{
+    background-image: url("../imagens_para_site/desktop/vermais-cinza.svg");
+}
+
+.btn-saber-mais{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background-image: url("../imagens_para_site/desktop/sabermais1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-voltar{
+    display: inline-block;
+    width: 132px;
+    height: 30px;
+    background-image: url("../imagens_para_site/desktop/voltar1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.btn-voltar:hover{
+    background-image: url("../imagens_para_site/desktop/voltar2.svg");
+}
+
+.btn-saber-mais:hover{
+    background-image: url("../imagens_para_site/desktop/sabermais2.svg");
+}
+
+.carousel-indicators{
+    justify-content: left;
+}
+
+.carousel-indicators [data-bs-target].btn-banner{
+    height: 20px;
+    width: 20px;
+    background-image: url("../imagens_para_site/desktop/bolabanner1.svg");
+    background-color: transparent;
+    border-radius: 100%;
+    margin-right: 20px
+}
+.carousel-indicators [data-bs-target].btn-banner:hover{
+    background-color: #707070;
+}
+
+.carousel-indicators [data-bs-target].btn-banner.active{
+    background-image: url("../imagens_para_site/desktop/bolabanner2.svg");
+}
+
+#imagem-autor>img{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#texto-bem-vindo{
+    margin-top: 30px;
+}
+
+#btn-bem-vindo{
+    margin-top: 40px;
+}
+
+#titulo-ultimos{
+    margin-top: 85px;
+}
+
+#texto-ultimos{
+    margin-top: 23px;
+}
+
+.caixa-ultimos-livros{
+    margin-bottom: 70px;
+}
+
+#titulo-contactos{
+    margin-bottom: 20px;
+}
+
+.subtitulo-contactos{
+    font-family: ibm-medium;
+    color: #B17E3B;
+}
+
+#titulo-redes{
+    margin-bottom: 20px;
+}
+
+.btn-redes{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#insta{
+    background-image: url("../imagens_para_site/desktop/instagram1.svg");
+}
+
+#insta:hover{
+    background-image: url("../imagens_para_site/desktop/instagram2.svg");
+}
+
+#facebook{
+    background-image: url("../imagens_para_site/desktop/facebook1.svg");
+}
+
+#facebook:hover{
+    background-image: url("../imagens_para_site/desktop/facebook2.svg");
+}
+
+#linkdin{
+    background-image: url("../imagens_para_site/desktop/linkedin1.svg");
+}
+
+#linkdin:hover{
+    background-image: url("../imagens_para_site/desktop/linkedin2.svg");
+}
+
+#cookies{
+    margin-top: 88px;
+}
+
+#cookies a{
+    text-decoration: none;
+}
+
+#direitos{
+    margin-bottom: 70px;
+}
+
+#caixa-reclamacoes{
+    margin-top: 70px;
+}
+
+.titulo-caption{
+    font-family: ibm-light;
+    font-size: 35px;
+    color: #4D4D4D;
+}
+
+.titulo-1{
+    font-family: ibm-bold;
+    font-size: 25px;
+    color: #4D4D4D;
+}
+
+.p-texto{
+    font-family: ibm-light;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.menu-selecionado{
+    font-family: lato-black;
+    font-size: 18px;
+    color: #B47D33;
+    margin-bottom: 10px;
+}
+
+.data-publicacao{
+    font-family: ibm-medium;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.underline-imprensa{
+    border: 1px solid #A97339;
+}
+
+.shadow-row{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-link{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 30px;
+}
+
+.pagination{
+    gap: 17px;
+}
+
+.custom-arrow{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.custom-pagination{
+    font-family: ibm-medium;
+    font-size: 23px;
+    color: #4D4D4D;    
+}
+
+.custom-pagination:hover{
+    color: #B17E3B;
+}
+
+#arrow-left{
+    background-image: url("../imagens_para_site/desktop/setaesquerda1.svg");
+    margin-right: 60px;
+}
+
+#arrow-right{
+    background-image: url("../imagens_para_site/desktop/setadireita1.svg");
+    margin-left: 60px
+}
+
+#arrow-left:hover{
+    background-image: url("../imagens_para_site/desktop/setaesquerda2.svg");
+}
+
+#arrow-right:hover{
+    background-image: url("../imagens_para_site/desktop/setadireita2.svg");
+}
+
+#linha-contactos{
+    width: 60px;
+    border: 1px solid #707070;
+}
+
+@media all and (max-width:500px){
+    #img-pagina-autor{
+        width: 80vw;
+    }
+}
+
+@media all and (max-width:1150px){
+    #imagem-autor{
+        width: fit-content;
+    }
+    .caixa-bem-vindo img{
+        margin: auto;
+        width: 50vw;
+    }
+    .caixa-bem-vindo{
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 992px){
+    .caixa-bem-vindo{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .caixa-bem-vindo img{
+        width: 70vw;
+    }
+
+    #titulo-pagina{
+        text-align: left !important;
+        margin-left: 15px;
+        font-size: 30px !important;
+    }
+
+    #imagem-autor{
+        margin: auto;
+    }
+
+    body{
+        overflow:auto;
+        min-width: 360px;
+    }
+
+    #menu-livros{
+        box-shadow: none !important;
+    }
+
+    #top_nav .nav-item{
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    #nav-box{
+        padding: 0px;
+        position: relative;
+        top: -65px;
+    }
+
+    .area-contactos{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav a{
+        margin-left: 20px;
+    }
+}

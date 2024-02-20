@@ -1,0 +1,70 @@
+@font-face{
+    src:url("fonts/Lato-Black.ttf");
+    font-family: "lato-black";
+}
+
+@font-face {
+    font-family: 'lato-black';
+    src: url('fonts/Lato-Black.woff2') format('woff2'),
+        url('fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src:url("fonts/Lato-Bold.ttf");
+    font-family: "lato-bold";
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url('fonts/Lato-Bold.woff2') format('woff2'),
+        url('fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    src:url("fonts/IBMPlexSans-Bold.ttf");
+    font-family: "ibm-bold";
+}
+
+@font-face {
+    font-family: 'ibm-bold';
+    src: url('fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('fonts/IBMPlexSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    src:url("fonts/IBMPlexSans-Light.ttf");
+    font-family: "ibm-light";
+}
+
+@font-face {
+    font-family: 'ibm-light';
+    src: url('fonts/IBMPlexSans-Light.woff2') format('woff2'),
+        url('fonts/IBMPlexSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    src:url("fonts/IBMPlexSans-Medium.ttf");
+    font-family: "ibm-medium";
+}
+
+@font-face {
+    font-family: 'ibm-medium';
+    src: url('fonts/IBMPlexSans-Medium.woff2') format('woff2'),
+        url('fonts/IBMPlexSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

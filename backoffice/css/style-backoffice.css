@@ -1,0 +1,62 @@
+body{
+    background-color:darkgray;
+}
+
+.caixa{
+    background-color: blanchedalmond;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-caixa{
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    text-align: center;
+    width: 90%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+th, td{
+    max-height: 110px !important;
+    overflow: hidden;
+}
+
+.img_home{
+    width: 200px;
+}
+
+.nav button, .btn-novo{
+    text-transform: uppercase;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+.nav button:hover{
+    background-color: bisque;
+}
+
+.btn-editar{
+    background-color: green;
+}
+
+.btn-apagar{
+    background-color: red;
+}
